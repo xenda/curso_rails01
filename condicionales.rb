@@ -1,32 +1,32 @@
-value = true
-
-if value then puts "Verdad!" end
-  
-if value 
-  puts "Verdad!"
-end
-
-puts "Verdad!" if value
-
-
-# Under Age
-age = 15
-age_limit = 18
-
-unless age > age_limit
-  puts "No tienes edad suficiente "
-end
-
-puts "No tienes edad suficiente " unless age > age_limit
-
-
-unless age > age_limit
-  puts "No tienes edad suficiente "
-else
-  puts "¡Adelante!"
-end
-
-
+# value = true
+# 
+# if value then puts "Verdad!" end
+#   
+# if value 
+#   puts "Verdad!"
+# end
+# 
+# puts "Verdad!" if value
+# 
+# 
+# # Under Age
+# age = 15
+# age_limit = 18
+# 
+# unless age > age_limit
+#   puts "No tienes edad suficiente "
+# end
+# 
+# puts "No tienes edad suficiente " unless age > age_limit
+# 
+# 
+# unless age > age_limit
+#   puts "No tienes edad suficiente "
+# else
+#   puts "¡Adelante!"
+# end
+# 
+# 
 puts "Dos + Dos = Cuatro. ¿Esto es Verdadero o Falso? (V/F)"
 respuesta = gets.chomp
 resultado = if respuesta == "V"
@@ -34,9 +34,8 @@ resultado = if respuesta == "V"
             else
               "Falso. ¿Estás seguro que estás en el curso correcto?"
             end
-            
-puts resultado
 
+puts resultado
 
 
 puts "Dos + Dos = Cuatro. ¿Esto es Verdadero o Falso? (V/F)"

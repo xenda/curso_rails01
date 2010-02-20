@@ -1,8 +1,8 @@
-#Primera versión
-print "¿Qué edad tienes?"
-user_age = gets.chomp
-
-puts " ¿" + user_age + "? ¡Pareces de " + (user_age.to_i - 5).to_s + "!" 
+# #Primera versión
+# print "¿Qué edad tienes?"
+# user_age = gets.chomp
+# 
+# puts " ¿" + user_age + "? ¡Pareces de " + (user_age.to_i - 5).to_s + "!" 
 
 
 #Segunda versión
