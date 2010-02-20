@@ -1,0 +1,1 @@
+Ejemplos para la sesión 02 del curso de Rails
