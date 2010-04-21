@@ -1,0 +1,1144 @@
+/!\ FAILSAFE /!\  Tue Apr 20 19:53:06 -0500 2010
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Tue Apr 20 19:56:34 -0500 2010
+  Status: 500 Internal Server Error
+  Unknown database 'misuperblog_development'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/alvaropereyrarabanal/.rvm/gems/ruby-1.8.7-p249@curso_rails/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-20 20:00:33) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (35.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-20 20:01:08) [GET]
+
+ActionController::RoutingError (No route matches "/hola" with {:method=>:get}):
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:05:43) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mMysql::Error: Table 'misuperblog_development.posts' doesn't exist: SELECT * FROM `posts` [0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'misuperblog_development.posts' doesn't exist: SELECT * FROM `posts` ):
+  app/controllers/posts_controller.rb:5:in `index'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.2ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (836.3ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (472.7ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (40.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20100421010417)
+  [4;35;1mSQL (114.1ms)[0m   [0mCREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100421010417')[0m
+  [4;35;1mSQL (18.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (58.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (3.3ms)[0m   [0mdescribe `posts`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:07:05) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 98ms (View: 88, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-20 20:07:14) [GET]
+  [4;35;1mPost Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 34ms (View: 21, DB: 4) | 200 OK [http://localhost/posts/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 127.0.0.1 at 2010-04-20 20:07:26) [POST]
+  Parameters: {"commit"=>"Create", "post"=>{"title"=>"Mi nuevo post", "content"=>"Un super texto largo e interesante"}, "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mPost Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Create (0.7ms)[0m   [0;1mINSERT INTO `posts` (`created_at`, `title`, `updated_at`, `content`) VALUES('2010-04-21 01:07:26', 'Mi nuevo post', '2010-04-21 01:07:26', 'Un super texto largo e interesante')[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 24ms (DB: 7) | 302 Found [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:07:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 36ms (View: 20, DB: 4) | 200 OK [http://localhost/posts/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-04-20 20:07:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 35ms (View: 21, DB: 5) | 200 OK [http://localhost/posts/1/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#update (for 127.0.0.1 at 2010-04-20 20:07:35) [PUT]
+  Parameters: {"commit"=>"Update", "post"=>{"title"=>"Mi nuevo post", "content"=>"Un super texto largo e interesante"}, "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY=", "id"=>"1"}
+  [4;36;1mPost Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 22ms (DB: 5) | 302 Found [http://localhost/posts/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:07:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (15.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (6.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 64ms (View: 6, DB: 23) | 200 OK [http://localhost/posts/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:07:37) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 13, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-20 20:07:41) [GET]
+  [4;36;1mPost Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 25ms (View: 13, DB: 3) | 200 OK [http://localhost/posts/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 127.0.0.1 at 2010-04-20 20:07:52) [POST]
+  Parameters: {"commit"=>"Create", "post"=>{"title"=>"otro post", "content"=>"lalalalalalaal\r\nlalalalalalaal\r\nlalalalalalaallalalalalalaallalalalalalaallalalalalalaal\r\n\r\nlalalalalalaallalalalalalaal\r\n\r\n\r\nlalalalalalaal"}, "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;35;1mPost Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (3.5ms)[0m   [0mINSERT INTO `posts` (`created_at`, `title`, `updated_at`, `content`) VALUES('2010-04-21 01:07:52', 'otro post', '2010-04-21 01:07:52', 'lalalalalalaal\r\nlalalalalalaal\r\nlalalalalalaallalalalalalaallalalalalalaallalalalalalaal\r\n\r\nlalalalalalaallalalalalalaal\r\n\r\n\r\nlalalalalalaal')[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/2
+Completed in 28ms (DB: 9) | 302 Found [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:07:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Columns (3.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 41ms (View: 24, DB: 5) | 200 OK [http://localhost/posts/2]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:07:54) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 19, DB: 4) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:17:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+Completed in 17ms (View: 4, DB: 4) | 200 OK [http://localhost/posts/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-04-20 20:17:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/edit
+Completed in 24ms (View: 13, DB: 4) | 200 OK [http://localhost/posts/1/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-04-20 20:18:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering posts/edit
+Completed in 37ms (View: 15, DB: 4) | 200 OK [http://localhost/posts/2/edit]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:22:08) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 525ms (View: 513, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index to html (for 127.0.0.1 at 2010-04-20 20:22:16) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 16, DB: 4) | 200 OK [http://localhost/posts.html]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index to xml (for 127.0.0.1 at 2010-04-20 20:22:24) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 241ms (View: 229, DB: 4) | 200 OK [http://localhost/posts.xml]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:25:16) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 20, DB: 4) | 200 OK [http://localhost/entradas]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:25:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (19.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+Completed in 43ms (View: 12, DB: 21) | 200 OK [http://localhost/entradas/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-04-20 20:25:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (5.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/edit
+Completed in 38ms (View: 22, DB: 7) | 200 OK [http://localhost/entradas/1/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:25:39) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 18, DB: 4) | 200 OK [http://localhost/entradas]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-20 20:29:12) [GET]
+  [4;36;1mPost Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering posts/new
+Completed in 30ms (View: 19, DB: 4) | 200 OK [http://localhost/entradas/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-20 20:29:32) [GET]
+  [4;35;1mPost Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering posts/new
+Completed in 31ms (View: 19, DB: 4) | 200 OK [http://localhost/entradas/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:31:38) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 43ms (View: 29, DB: 4) | 200 OK [http://localhost/entradas]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-04-20 20:31:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/edit
+Completed in 143ms (View: 20, DB: 4) | 200 OK [http://localhost/entradas/1/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#update (for 127.0.0.1 at 2010-04-20 20:32:50) [PUT]
+  Parameters: {"commit"=>"Actualizar", "post"=>{"title"=>"Mi nuevo post", "content"=>"Un super texto largo e interesante.\r\nEs demasiado genial. "}, "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY=", "id"=>"1"}
+  [4;36;1mPost Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Update (1.2ms)[0m   [0mUPDATE `posts` SET `content` = 'Un super texto largo e interesante.\r\nEs demasiado genial. ', `updated_at` = '2010-04-21 01:32:50' WHERE `id` = 1[0m
+  [4;36;1mSQL (49.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/entradas/1
+Completed in 75ms (DB: 55) | 302 Found [http://localhost/entradas/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:32:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (1.4ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+Completed in 17ms (View: 4, DB: 4) | 200 OK [http://localhost/entradas/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:47:49) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 62ms (View: 49, DB: 5) | 200 OK [http://localhost/entradas]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:47:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+Completed in 27ms (View: 14, DB: 4) | 200 OK [http://localhost/entradas/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:48:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+Completed in 27ms (View: 14, DB: 4) | 200 OK [http://localhost/entradas/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:50:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (4.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'misuperblog_development.comments' doesn't exist: SHOW FIELDS FROM `comments`[0m
+
+ActionView::TemplateError (Mysql::Error: Table 'misuperblog_development.comments' doesn't exist: SHOW FIELDS FROM `comments`) on line #12 of app/views/posts/show.html.erb:
+9: 
+10: <hr />
+11: 
+12: <% form_for(Comment.new) do |f| %>
+13: 
+14: <%= f.label "Nombre" %>
+15: <%= f.text_field :name %>
+
+    app/views/posts/show.html.erb:12:in `new'
+    app/views/posts/show.html.erb:12
+    app/controllers/posts_controller.rb:18:in `show'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (220.6ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20100421010417)
+Migrating to CreateComments (20100421014631)
+  [4;36;1mSQL (236.7ms)[0m   [0;1mCREATE TABLE `comments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `content` text, `post_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100421014631')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (3.7ms)[0m   [0;1mdescribe `comments`[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mSHOW KEYS FROM `comments`[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mdescribe `posts`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:50:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;36;1mComment Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+
+ActionView::TemplateError (undefined local variable or method `comment' for #<ActionView::Base:0x1021e8b80>) on line #16 of app/views/posts/show.html.erb:
+13: 
+14: <%= f.label "Nombre" %>
+15: <%= f.text_field :name %>
+16: <%= hidden_field comment[post_id], @post.id %>
+17: <%= f.label "Email" %>
+18: <%= f.text_field :email %>
+19: 
+
+    app/views/posts/show.html.erb:16
+    app/views/posts/show.html.erb:12
+    app/controllers/posts_controller.rb:18:in `show'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alvaropereyrarabanal/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.8ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:51:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;35;1mComment Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+Completed in 49ms (View: 32, DB: 6) | 200 OK [http://localhost/entradas/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 20:51:21) [POST]
+  Parameters: {"comment"=>{"name"=>"Alvaro", "post_id"=>{"1"=>""}, "content"=>"Esto es genial!", "email"=>"alvaro@xendacentral.com"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (4.8ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Alvaro', '2010-04-21 01:51:21', '2010-04-21 01:51:21', 1, 'Esto es genial!', 'alvaro@xendacentral.com')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/comments/1
+Completed in 27ms (DB: 7) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 20:51:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mComment Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.`id` = 1) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 55ms (View: 38, DB: 5) | 200 OK [http://localhost/comments/1]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-04-20 20:51:26) [GET]
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM `comments` [0m
+Rendering template within layouts/comments
+Rendering comments/index
+  [4;35;1mComment Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+Completed in 36ms (View: 24, DB: 4) | 200 OK [http://localhost/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:51:30) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 17, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:51:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;36;1mComment Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Completed in 138ms (View: 23, DB: 9) | 200 OK [http://localhost/entradas/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:53:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 1) [0m
+  [4;36;1mComment Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Completed in 126ms (View: 36, DB: 8) | 200 OK [http://localhost/entradas/1]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 20:54:00) [POST]
+  Parameters: {"comment"=>{"name"=>"Benjamin", "post_id"=>{"1"=>""}, "content"=>"Esto lo hago tambien en Zend", "email"=>"emaildebenjamin@nose.com"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;35;1mComment Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mComment Create (0.5ms)[0m   [0mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Benjamin', '2010-04-21 01:54:00', '2010-04-21 01:54:00', 1, 'Esto lo hago tambien en Zend', 'emaildebenjamin@nose.com')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/comments/2
+Completed in 32ms (DB: 6) | 302 Found [http://localhost/comments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 20:54:00) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mComment Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mComment Load (2.0ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.`id` = 2) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 23ms (View: 6, DB: 5) | 200 OK [http://localhost/comments/2]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:54:05) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;36;1mPost Columns (8.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 9, DB: 10) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:54:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (27.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 1) [0m
+  [4;36;1mComment Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Completed in 64ms (View: 22, DB: 31) | 200 OK [http://localhost/entradas/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-04-20 20:54:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/edit
+Completed in 35ms (View: 22, DB: 4) | 200 OK [http://localhost/entradas/1/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:54:26) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;36;1mPost Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 18ms (View: 6, DB: 3) | 200 OK [http://localhost/entradas]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:54:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 1) [0m
+  [4;36;1mComment Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Completed in 39ms (View: 23, DB: 6) | 200 OK [http://localhost/entradas/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 20:55:14) [POST]
+  Parameters: {"comment"=>{"name"=>"", "post_id"=>{"1"=>""}, "content"=>"erqwer", "email"=>""}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;35;1mComment Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/comments
+Rendering comments/new
+Completed in 53ms (View: 33, DB: 4) | 200 OK [http://localhost/comments]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 20:56:32) [POST]
+  Parameters: {"comment"=>{"name"=>"Alvaro", "post_id"=>"1", "content"=>"erqwer", "email"=>""}, "commit"=>"Create", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/comments
+Rendering comments/new
+Completed in 44ms (View: 18, DB: 4) | 200 OK [http://localhost/comments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 20:56:40) [POST]
+  Parameters: {"comment"=>{"name"=>"Alvaro", "post_id"=>" ", "content"=>"erqwer", "email"=>"alvaro@xendacentral.com"}, "commit"=>"Create", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;35;1mComment Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mComment Create (0.4ms)[0m   [0mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Alvaro', '2010-04-21 01:56:40', '2010-04-21 01:56:40', NULL, 'erqwer', 'alvaro@xendacentral.com')[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/comments/3
+Completed in 137ms (DB: 5) | 302 Found [http://localhost/comments]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 20:56:40) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mComment Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mComment Load (2.2ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.`id` = 3) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 34ms (View: 17, DB: 6) | 200 OK [http://localhost/comments/3]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-04-20 20:56:42) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mComment Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.`id` = 3) [0m
+Rendering template within layouts/comments
+Rendering comments/edit
+Completed in 37ms (View: 24, DB: 4) | 200 OK [http://localhost/comments/3/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-04-20 20:56:48) [PUT]
+  Parameters: {"comment"=>{"name"=>"Alvaro", "post_id"=>"1", "content"=>"erqwer", "email"=>"alvaro@xendacentral.com"}, "commit"=>"Update", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY=", "id"=>"3"}
+  [4;35;1mComment Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.`id` = 3) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Update (2.4ms)[0m   [0;1mUPDATE `comments` SET `updated_at` = '2010-04-21 01:56:48', `post_id` = 1 WHERE `id` = 3[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/comments/3
+Completed in 31ms (DB: 8) | 302 Found [http://localhost/comments/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 20:56:48) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mComment Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mComment Load (2.3ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.`id` = 3) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 30ms (View: 12, DB: 6) | 200 OK [http://localhost/comments/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-04-20 20:56:50) [GET]
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `comments` [0m
+Rendering template within layouts/comments
+Rendering comments/index
+  [4;35;1mComment Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+Completed in 36ms (View: 24, DB: 4) | 200 OK [http://localhost/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 20:57:03) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 124ms (View: 111, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 20:57:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering posts/show
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.post_id = 1) [0m
+  [4;35;1mComment Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+Completed in 42ms (View: 24, DB: 8) | 200 OK [http://localhost/entradas/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-04-20 21:04:13) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering posts/index
+  [4;35;1mPost Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 7, DB: 5) | 200 OK [http://localhost/entradas/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-04-20 21:04:15) [GET]
+  [4;36;1mPost Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering posts/new
+Completed in 31ms (View: 17, DB: 4) | 200 OK [http://localhost/entradas/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 127.0.0.1 at 2010-04-20 21:04:27) [POST]
+  Parameters: {"commit"=>"Grabar", "post"=>{"author"=>"Alvaro", "title"=>"Nuevo post", "content"=>"lalala"}, "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;35;1mPost Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO `posts` (`created_at`, `title`, `author`, `updated_at`, `content`) VALUES('2010-04-21 02:04:27', 'Nuevo post', 'Alvaro', '2010-04-21 02:04:27', 'lalala')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/entradas/3
+Completed in 21ms (DB: 5) | 302 Found [http://localhost/entradas]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:04:27) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Columns (3.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering posts/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+  [4;36;1mComment Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Completed in 79ms (View: 55, DB: 8) | 200 OK [http://localhost/entradas/3]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:05:14) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering posts/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+  [4;36;1mComment Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Completed in 152ms (View: 131, DB: 7) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:50:16) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (25.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 178ms (View: 30, DB: 29) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (13.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:50:25) [POST]
+  Parameters: {"comment"=>{"name"=>"Alvaro", "post_id"=>"3", "content"=>"sfafasfdasdfasf", "email"=>"alvaro@xendacentral.com"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Alvaro', '2010-04-21 02:50:25', '2010-04-21 02:50:25', 3, 'sfafasfdasdfasf', 'alvaro@xendacentral.com')[0m
+  [4;35;1mSQL (20.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/comments/4
+Completed in 57ms (DB: 41) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 21:50:25) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mComment Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mComment Load (1.9ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.`id` = 4) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 63ms (View: 33, DB: 5) | 200 OK [http://localhost/comments/4]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:50:29) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (4.9ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (5.5ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 51ms (View: 13, DB: 15) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:50:39) [POST]
+  Parameters: {"comment"=>{"name"=>"Alvaro", "post_id"=>"3", "content"=>"dfdfasfasdfasdfasdf", "email"=>"alalalalala"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (176.9ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (9.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Alvaro', '2010-04-21 02:50:39', '2010-04-21 02:50:39', 3, 'dfdfasfasdfasdfasdf', 'alalalalala')[0m
+  [4;35;1mSQL (14.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/comments/5
+Completed in 243ms (DB: 202) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 21:50:39) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mComment Columns (61.4ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.`id` = 5) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 82ms (View: 6, DB: 63) | 200 OK [http://localhost/comments/5]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:50:43) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (5.1ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 51ms (View: 18, DB: 9) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:50:55) [POST]
+  Parameters: {"comment"=>{"name"=>"Andres", "post_id"=>"3", "content"=>"fasfasdfasfd ", "email"=>"alvaro@xendacentral.com"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (2.1ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Andres', '2010-04-21 02:50:55', '2010-04-21 02:50:55', 3, 'fasfasdfasfd ', 'alvaro@xendacentral.com')[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/comments/6
+Completed in 28ms (DB: 8) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#show (for 127.0.0.1 at 2010-04-20 21:50:55) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mComment Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mComment Load (2.4ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.`id` = 6) [0m
+Rendering template within layouts/comments
+Rendering comments/show
+Completed in 29ms (View: 12, DB: 6) | 200 OK [http://localhost/comments/6]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:51:04) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (9.5ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (3.3ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 52ms (View: 14, DB: 17) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:52:23) [POST]
+  Parameters: {"comment"=>{"name"=>"Otro más", "post_id"=>"3", "content"=>"asfasfdasf", "email"=>"un email"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (30.3ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('Otro más', '2010-04-21 02:52:23', '2010-04-21 02:52:23', 3, 'asfasfdasf', 'un email')[0m
+  [4;35;1mSQL (71.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPost Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Redirected to http://localhost:3000/entradas/3
+Completed in 157ms (DB: 106) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:52:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (4.4ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (7.9ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 53ms (View: 13, DB: 16) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:52:28) [POST]
+  Parameters: {"comment"=>{"name"=>"lalalalal", "post_id"=>"3", "content"=>"lalalala", "email"=>"lalalala"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (4.7ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (0.4ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('lalalalal', '2010-04-21 02:52:28', '2010-04-21 02:52:28', 3, 'lalalala', 'lalalala')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPost Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Redirected to http://localhost:3000/entradas/3
+Completed in 41ms (DB: 11) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:52:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (1.8ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (14.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (7.0ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 67ms (View: 18, DB: 27) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:52:33) [POST]
+  Parameters: {"comment"=>{"name"=>"asdfasfasdfka :D", "post_id"=>"3", "content"=>"Ddfdfafad ", "email"=>":D"}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (3.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('asdfasfasdfka :D', '2010-04-21 02:52:33', '2010-04-21 02:52:33', 3, 'Ddfdfafad ', ':D')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPost Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Redirected to http://localhost:3000/entradas/3
+Completed in 42ms (DB: 10) | 302 Found [http://localhost/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:52:33) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;36;1mComment Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 54ms (View: 13, DB: 8) | 200 OK [http://localhost/entradas/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:52:39) [POST]
+  Parameters: {"comment"=>{"name"=>"no se usar vocales", "post_id"=>"3", "content"=>":(", "email"=>""}, "commit"=>"Comentar", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;36;1mComment Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/comments
+Rendering comments/new
+Completed in 47ms (View: 31, DB: 3) | 200 OK [http://localhost/comments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2010-04-20 21:52:45) [POST]
+  Parameters: {"comment"=>{"name"=>"no se usar vocales", "post_id"=>"3", "content"=>":(", "email"=>"adfad"}, "commit"=>"Create", "authenticity_token"=>"oLkK8+jLW47+P7a88TmI74HCqhsDR3Q/rgNbmtHLFKY="}
+  [4;35;1mComment Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mComment Create (0.5ms)[0m   [0mINSERT INTO `comments` (`name`, `created_at`, `updated_at`, `post_id`, `content`, `email`) VALUES('no se usar vocales', '2010-04-21 02:52:45', '2010-04-21 02:52:45', 3, ':(', 'adfad')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPost Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Redirected to http://localhost:3000/entradas/3
+Completed in 48ms (DB: 10) | 302 Found [http://localhost/comments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-04-20 21:52:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Columns (3.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;35;1mComment Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+Rendering posts/show
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.post_id = 3) [0m
+Completed in 92ms (View: 35, DB: 9) | 200 OK [http://localhost/entradas/3]

@@ -1,0 +1,16 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-02 19:30:56) [GET]
+
+ActionController::RoutingError (No route matches "/topicos" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-02 19:31:00) [GET]
+
+ActionController::RoutingError (No route matches "/topics" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

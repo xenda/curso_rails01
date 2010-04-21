@@ -1,0 +1,32 @@
+<h2>
+  <%=h @post.title %> por <em><%= @post.author %></em>
+</h2>
+
+  <%=h @post.content %>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
+
+<hr />
+
+<ul>
+  <% @post.comments.each do |comment| %>
+  <li><%= comment.name %> dijo: <%= comment.content %></li>
+  <% end %>
+</ul>
+
+
+<% form_for(@comment) do |f| %>
+
+<%= f.label "Nombre" %>
+<%= f.text_field :name %><br />
+<%= f.hidden_field :post_id %>
+<%= f.label "Email" %><br />
+<%= f.text_field :email %>
+
+<%= f.label "Contenido" %><br />
+<%= f.text_area :content %>
+
+<%= f.submit "Comentar" %>
+
+<% end %>

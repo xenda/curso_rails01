@@ -1,0 +1,4 @@
+# #!/usr/bin/env bash
+[[ -f "$HOME/.rvm/scripts/rvm" ]] && . $HOME/.rvm/scripts/rvm
+[[ -f "$TM_PROJECT_DIRECTORY/.rvmrc" ]] && . $TM_PROJECT_DIRECTORY/.rvmrc
+rvm 1.8.7@curso_rails

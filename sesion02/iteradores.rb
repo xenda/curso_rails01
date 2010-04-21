@@ -11,5 +11,3 @@ File.open("texto_dummy.txt") do |file|
 end
 
 puts capturado
-
-
