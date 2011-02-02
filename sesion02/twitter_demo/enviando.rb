@@ -2,7 +2,8 @@
 require 'rubygems'
 require 'twitter'
 
-httpauth = Twitter::HTTPAuth.new('curso_rails', 'yaraher')
+PASS = 'nothere'
+httpauth = Twitter::HTTPAuth.new('curso_rails', PASS)
 
 client = Twitter::Base.new(httpauth)
 
